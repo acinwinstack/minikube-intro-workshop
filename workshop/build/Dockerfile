@@ -3,7 +3,7 @@ FROM python
 
 # Set the working directory
 WORKDIR /home/app/
-COPY ./* /home/app/
+COPY ./app.py /home/app/
 RUN mkdir /home/redis/
 
 # Install neede packages

@@ -30,15 +30,6 @@ spec:
         imagePullPolicy: IfNotPresent
         env:
           - name: REDIS_HOST
-            value: "172.17.0.4" #replace with acutal redis ip
+            value: "redis_pod_ip" #replace with acutal redis ip
         ports:
         - containerPort: 80
-        volumeMounts:
-        - name: vol
-          mountPath: /home/redis
-
-      volumes:
-      - name: vol
-        hostPath:
-          path: /webvol
-
