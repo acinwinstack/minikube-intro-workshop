@@ -19,7 +19,7 @@
   * [Build Docker image](https://github.com/acinwinstack/minikube-intro-workshop#build-docker-image)
   * [Start Minikube and deploy services](https://github.com/acinwinstack/minikube-intro-workshop#start-minikube-and-deploy-services)
 * [Notes](https://github.com/acinwinstack/minikube-intro-workshop#notes)
-
+  
 ## Description
 
 This is workshop material for beginners looking forward to learning [Docker](https://www.docker.com/) and [Minikube](https://github.com/kubernetes/minikube). 
