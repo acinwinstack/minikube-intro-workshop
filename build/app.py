@@ -24,12 +24,13 @@ def hello():
       f.write('0\n')
       print('file written')
 
+  with open(path,'w') as f:
+    visits += 1
+    f.write('%d\n' % visits)
+    print('file written')
+
   try:
     redisCount = redis.incr("counter")
-    with open(path,'w') as f:
-      visits += 1
-      f.write('%d\n' % visits)
-      print('file written')
 
   except RedisError:
     redisCount = "<i>not connected to Redis</i>"
@@ -37,7 +38,7 @@ def hello():
 
   html = "<h3>Hello {name}!</h3>" \
          "<b>Hostname:</b> {hostname}<br/>" \
-         "<b>Visits to {hostname}:</b> {visits}<br/>" \
+         "<b>Visits to Host:</b> {visits}<br/>" \
          "<b>Visits since connected to Redis:</b> {count}"
 
   return html.format(name=os.getenv("NAME", "world"), hostname=socket.gethostname(), visits=visits, count=redisCount)
