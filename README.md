@@ -1,5 +1,3 @@
-# Minikube Workshop by Alfie Chen
-
 <p align="center">
 <img src="https://avatars0.githubusercontent.com/u/12655890?s=200&v=4" width="70">
 &ensp;&ensp;
@@ -7,6 +5,8 @@
 &ensp;&ensp;
 <img src="https://avatars2.githubusercontent.com/u/29940671?s=460&v=4" width="70">
 </p>
+
+# Minikube Workshop by Alfie Chen
 
 * [Description](https://github.com/acinwinstack/minikube-intro-workshop#description)
 * [Prerequisite](https://github.com/acinwinstack/minikube-intro-workshop#prerequisite)
