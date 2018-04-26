@@ -120,10 +120,8 @@ NAME                                  READY     STATUS    RESTARTS   AGE       I
 redis                                 1/1       Running   0          6s        172.17.0.9   minikube
 ```
 Write down the _**pod IP**_ of redis (usually something like **`172.17.0.9`**) then use your favorite text editor to replace **`REDIS_IP`** in `lab2/web_deploy.yml` with the **pod IP**.  
-
-Once **`REDIS_IP`** is configured correctly, `hello-world` is ready to go.
-
-******By default, `web_deploy.yml` uses image `acinwinstack/hello_world:minikube-intro-workshop`, which is an equivalent to `helloworld:v1` we built earlier. Feel free to replace it with `helloworld:v1`.  
+Once **`REDIS_IP`** is configured correctly, `hello-world` is ready to go.  
+**By default, `web_deploy.yml` uses image `acinwinstack/hello_world:minikube-intro-workshop`, which is an equivalent to `helloworld:v1` we built earlier. Feel free to replace it with `helloworld:v1`.  
 
 ```shell
 $ kubectl apply -f lab2/web_deploy.yml
