@@ -9,7 +9,7 @@
 # Minikube Workshop by Alfie Chen
 
 * [Description](https://github.com/acinwinstack/minikube-intro-workshop#description)
-* [Prerequisite](https://github.com/acinwinstack/minikube-intro-workshop#prerequisite)
+* [Prerequisites](https://github.com/acinwinstack/minikube-intro-workshop#prerequisites)
   * [Install Docker](https://github.com/acinwinstack/minikube-intro-workshop#install-docker)
   * [Install VirtualBox](https://github.com/acinwinstack/minikube-intro-workshop#install-virtualbox)
   * [Install kubectl](https://github.com/acinwinstack/minikube-intro-workshop#install-kubectl)
