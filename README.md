@@ -28,7 +28,7 @@ We're modifying [Get Started Tutorial](https://docs.docker.com/get-started/) fro
 ## Prerequisites
 
 ### Install Docker
-* [Docker for Windows](https://download.docker.com/win/stable/Docker for Windows Installer.exe)
+* [Docker for Windows](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe)
   * Requires **Windows 10 Pro with Hyper-V** or **Windows Server 2016**
 
 * [Docker for Mac](https://docs.docker.com/docker-for-mac/install)
