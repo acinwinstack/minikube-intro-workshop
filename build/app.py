@@ -21,7 +21,7 @@ def hello():
       visits = int(f.readline())
   else:
     with open(path,'w') as f:
-      f.write('0\n')
+      f.write('%d\n' % visits)
       print('file written')
 
   with open(path,'w') as f:
