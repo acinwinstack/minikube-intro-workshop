@@ -8,6 +8,18 @@
 <img src="https://avatars2.githubusercontent.com/u/29940671?s=460&v=4" width="70">
 </p>
 
+* [Description](https://github.com/acinwinstack/minikube-intro-workshop#description)
+* [Prerequisite](https://github.com/acinwinstack/minikube-intro-workshop#prerequisite)
+  * [Install Docker](https://github.com/acinwinstack/minikube-intro-workshop#install-docker)
+  * [Install VirtualBox](https://github.com/acinwinstack/minikube-intro-workshop#install-virtualbox)
+  * [Install kubectl](https://github.com/acinwinstack/minikube-intro-workshop#install-kubectl)
+  * [Install Minikube](https://github.com/acinwinstack/minikube-intro-workshop#install-minikube)
+* [Quickstart](https://github.com/acinwinstack/minikube-intro-workshop#quickstart)
+  * [Download workshop contents](https://github.com/acinwinstack/minikube-intro-workshop#download-workshop-contents)
+  * [Build Docker image](https://github.com/acinwinstack/minikube-intro-workshop#build-docker-image)
+  * [Start Minikube and deploy services](https://github.com/acinwinstack/minikube-intro-workshop#start-minikube-and-deploy-services)
+* [Notes](https://github.com/acinwinstack/minikube-intro-workshop#notes)
+
 ## Description
 
 This is workshop material for beginners looking forward to learning [Docker](https://www.docker.com/) and [Minikube](https://github.com/kubernetes/minikube). 
@@ -119,7 +131,7 @@ $ kubectl get po -o wide
 NAME                                  READY     STATUS    RESTARTS   AGE       IP           NODE
 redis                                 1/1       Running   0          6s        172.17.0.9   minikube
 ```
-Write down the _**pod IP**_ of redis (usually something like **`172.17.0.9`**) then use your favorite text editor to replace **`REDIS_IP`** in `lab2/web_deploy.yml` with the **pod IP**. Once **`REDIS_IP`** is configured correctly, `hello-world` is ready to go.  
+Write down the _**pod IP**_ of redis (usually something like **`172.17.0.9`**) then use your favorite text editor to replace **`REDIS_IP`** in `lab2/web_deploy.yml` with the _**pod IP**_. Once **`REDIS_IP`** is configured correctly, `hello-world` is ready to go.  
 **By default, `web_deploy.yml` uses image `acinwinstack/hello_world:minikube-intro-workshop`, which is an equivalent to `helloworld:v1` we built earlier. Feel free to replace it with `helloworld:v1`.  
 
 ```bash
