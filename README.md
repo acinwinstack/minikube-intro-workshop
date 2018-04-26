@@ -52,7 +52,6 @@ We're modifying [Get Started Tutorial](https://docs.docker.com/get-started/) fro
 
 ### Install VirtualBox  
 _If you've installed Docker via **Docker Toolbox**, you may skip this section._  
-_**For other release versions of VirtualBox, please refer to this [link](https://www.virtualbox.org/wiki/Downloads).**_
 
 [**VirtualBox**](https://www.virtualbox.org/) is the default hypervisor for running Minikube. 
 Although there are multiple hypervisor choices across systems that Minikube [supports](https://github.com/kubernetes/minikube/blob/master/README.md#requirements), 
@@ -61,7 +60,8 @@ we'll be using VirtualBox for the simplisity of this workshop.
 Install packages:
 * [Windows](https://download.virtualbox.org/virtualbox/5.2.8/VirtualBox-5.2.8-121009-Win.exe) (v5.2.8)
 * [Mac](https://download.virtualbox.org/virtualbox/5.2.10/VirtualBox-5.2.10-122088-OSX.dmg) (v5.2.10)
-* [Linux](https://www.virtualbox.org/wiki/Linux_Downloads) - Download the package according to your Linux distribution.
+* [Linux](https://www.virtualbox.org/wiki/Linux_Downloads) - Download the package according to your Linux distribution.  
+_**For other release versions of VirtualBox, please refer to this [link](https://www.virtualbox.org/wiki/Downloads).**_
 
 ### Install kubectl  
 _kubectl is the CLI binary for interacting with [**Kubernetes API**](https://kubernetes.io/docs/reference/)._  
