@@ -32,13 +32,12 @@ def hello():
       print('file written')
 
   except RedisError:
-    visits = "<i>cannot connect to Redis, counter disabled</i>"
     redisCount = "<i>not connected to Redis</i>"
 
 
   html = "<h3>Hello {name}!</h3>" \
          "<b>Hostname:</b> {hostname}<br/>" \
-         "<b>Total Visits:</b> {visits}<br/>" \
+         "<b>Visits to {hostname}:</b> {visits}<br/>" \
          "<b>Visits since connected to Redis:</b> {count}"
 
   return html.format(name=os.getenv("NAME", "world"), hostname=socket.gethostname(), visits=visits, count=redisCount)
